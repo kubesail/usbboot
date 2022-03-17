@@ -1,3 +1,8 @@
+KUBESAIL NOTES:
+To change boot order: https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#BOOT_ORDER
+cd to recovery, edit the boot.conf, run update-pieeprom.sh, run ../tools/rpi-eeprom-digest
+then run ./rpiboot -d recovery
+
 # USB device boot code
 
 This is the USB MSD boot code which should work on the Raspberry Pi model A, Compute Module, Compute
